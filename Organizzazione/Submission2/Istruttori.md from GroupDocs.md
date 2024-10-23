@@ -4,8 +4,8 @@
 
 **DOMANDE**
 
-//si assume già che facciano sport<br>
-//dobbiamo chiedere info anagrafiche<br> (Ricordiamoci del consenso informato) 
+*si assume già che facciano sport*<br>
+*dobbiamo chiedere info anagrafiche*<br> **(Ricordiamoci del consenso informato)**
 - Nome e Cognome,
 - Data di nascita
 - Professione
