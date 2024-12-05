@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportPal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css">
+</head>
+<body>
+  <nav class="nav-bar">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between items-center">
+        <div class="app-logo">SportPal</div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="hero-section">
+      <div class="content-left">
+        <img src="first.png" alt="SportPal App" class="app-screenshot">
+      </div>
+      <div class="content-right">
+        <h1 class="headline">SportPal: dove lo sport diventa un'esperienza.</h1>
+        <p class="subheadline">Trova il luogo perfetto per fare sport</p>
+        <a href="https://www.figma.com/proto/xk21QHqHv9rBy9pGF68l0E/Prototipo?node-id=230-822&node-type=canvas&t=WKtL5Sb9kwB929Dc-0&scaling=scale-down&content-scaling=fixed&page-id=0:1&starting-point-node-id=230:822&show-proto-sidebar=1" 
+           class="cta-button group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-gradient-to-r from-blue-600 to-blue-500 rounded-full overflow-hidden shadow-lg transition-all duration-300 hover:transform hover:scale-105 mb-12"
+           target="_blank">
+           <span class="relative z-10">Prova il Prototipo</span>
+           <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        </a>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feature-icon">🎯</div>
+            <p class="feature-text">Raggiungi i tuoi obbiettivi sportivi</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">📅</div>
+            <p class="feature-text">Prenota facilmente online</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🏆</div>
+            <p class="feature-text">Divertiti</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="additional-section">
+      <div class="additional-text">
+        <h2 class="text-3xl font-bold mb-4">Unisciti alle community</h2>
+        <p>SportPal è più di un'applicazione, è una comunità di appassionati di sport! Trova le attività perfette per te!</p>
+            </div>
+            <div>
+        <img src="social.png" alt="Social Community" class="app-screenshot">
+            </div>
+          </div>
+        </div>
+       
+        <section class="py-24 bg-gradient-to-b from-gray-50 to-white">
+          <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-600">
+              Documentazione
+            </h2>
+            <div class="flex flex-row space-x-6"> <!-- Changed from flex-col to flex-row and space-y-6 to space-x-6 -->
+              <a href="../Docs/FlussiDiInterazione.pdf" 
+                 class="flex-1 group backdrop-blur-sm bg-white/80 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-between border border-gray-100">
+                <div class="flex items-center space-x-4">
+                  <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                  </div>
+                  <span class="text-xl font-medium text-gray-800 group-hover:text-blue-600 transition-colors">Flussi Di Interazione</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+        
+              <a href="../Docs/ValutazioneEuristica.pdf"
+                 class="flex-1 group backdrop-blur-sm bg-white/80 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-between border border-gray-100">
+                <div class="flex items-center space-x-4">
+                  <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                  </div>
+                  <span class="text-xl font-medium text-gray-800 group-hover:text-blue-600 transition-colors">Valutazione Euristica</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </section>
+        
+ <section id="steps" class="py-24 bg-gradient-to-b from-gray-50 to-white">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-600">
+      Guarda tutti gli steps
+    </h2>
+    <div class="flex flex-col space-y-6">
+      <a href="../../C1/Presentazione1.pdf" 
+         class="group backdrop-blur-sm bg-white/80 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-between border border-gray-100">
+        <div class="flex items-center space-x-4">
+          <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center">
+            <span class="text-xl font-semibold text-blue-600">1</span>
+          </div>
+          <span class="text-xl font-medium text-gray-800 group-hover:text-blue-600 transition-colors">Consegna 1</span>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+
+      <a href="../../C2/C2V1.pdf"
+         class="group backdrop-blur-sm bg-white/80 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-between border border-gray-100">
+        <div class="flex items-center space-x-4">
+          <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center">
+            <span class="text-xl font-semibold text-blue-600">2</span>
+          </div>
+          <span class="text-xl font-medium text-gray-800 group-hover:text-blue-600 transition-colors">Consegna 2</span>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+
+      <a href="../../C3/C3V1.pdf"
+         class="group backdrop-blur-sm bg-white/80 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-between border border-gray-100">
+        <div class="flex items-center space-x-4">
+          <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center">
+            <span class="text-xl font-semibold text-blue-600">3</span>
+          </div>
+          <span class="text-xl font-medium text-gray-800 group-hover:text-blue-600 transition-colors">Consegna 3</span>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-400 group-hover:text-blue-600 transition-colors transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+ 
+<main>
+  <section id="team" class="mb-16">
+    <h2 class="section-heading text-center text-3xl font-bold mb-8">Meet Our Team</h2>
+    
+    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-6">
+      <li class="group bg-white hover:bg-gray-100 transition-all shadow-md hover:shadow-lg rounded-lg p-6 flex items-center justify-center">
+        <p class="text-lg font-medium text-gray-800 group-hover:text-gray-600 transition-colors">Daniele Cursano</p>
+      </li>
+      <li class="group bg-white hover:bg-gray-100 transition-all shadow-md hover:shadow-lg rounded-lg p-6 flex items-center justify-center">
+        <p class="text-lg font-medium text-gray-800 group-hover:text-gray-600 transition-colors">Flavio Milinanni</p>
+      </li>
+      <li class="group bg-white hover:bg-gray-100 transition-all shadow-md hover:shadow-lg rounded-lg p-6 flex items-center justify-center">
+        <p class="text-lg font-medium text-gray-800 group-hover:text-gray-600 transition-colors">Matteo Negro</p>
+      </li>
+      <li class="group bg-white hover:bg-gray-100 transition-all shadow-md hover:shadow-lg rounded-lg p-6 flex items-center justify-center">
+        <p class="text-lg font-medium text-gray-800 group-hover:text-gray-600 transition-colors">Tommaso Pasini</p>
+      </li>
+    </ul>
+  
+    <ul class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+      <li class="group bg-white hover:bg-gray-100 transition-all shadow-md hover:shadow-lg rounded-lg p-6 flex items-center justify-center">
+        <p class="text-lg font-medium text-gray-800 group-hover:text-gray-600 transition-colors">Cristian Petramale</p>
+      </li>
+      <li class="group bg-white hover:bg-gray-100 transition-all shadow-md hover:shadow-lg rounded-lg p-6 flex items-center justify-center">
+        <p class="text-lg font-medium text-gray-800 group-hover:text-gray-600 transition-colors">Oliver Quin</p>
+      </li>
+      <li class="group bg-white hover:bg-gray-100 transition-all shadow-md hover:shadow-lg rounded-lg p-6 flex items-center justify-center">
+        <p class="text-lg font-medium text-gray-800 group-hover:text-gray-600 transition-colors">Claudia Salone</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="py-16 text-center">
+    <a href="https://www.figma.com/design/xk21QHqHv9rBy9pGF68l0E/Prototipo?node-id=0-1&node-type=canvas&t=NCymkdKWqO1f7TjF-0" 
+       class="cta-button group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-gradient-to-r from-blue-600 to-blue-500 rounded-full overflow-hidden shadow-lg transition-all duration-300 hover:transform hover:scale-105"
+       target="_blank">
+       <span class="relative z-10">Pagina Prototipo</span>
+       <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </a>
+  </section>
+
+  <!-- <footer class="text-center text-gray-600 mt-8 pb-8">
+    &copy; 2024 SportPal. All rights reserved.
+  </footer> -->
+</main>
+  </div>
+</body>
+</html>
