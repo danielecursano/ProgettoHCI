@@ -1,0 +1,137 @@
+/*Effetti globali sul foglio*/
+body {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: rgb(245, 245, 247);
+}
+
+/*Effetto hover per screenshot*/
+.hover-lift {
+    transition: transform 0.3s ease; /* Effetto di transizione morbido */
+}
+
+.hover-lift:hover {
+    transform: translateY(-10px); /* Alza l'immagine di 10px */
+}
+
+/*Stile per i pulsanti*/
+.custom-button {
+    position: relative; /* Per posizionare il cerchio relativo al pulsante */
+    overflow: hidden; /* Nasconde il cerchio fuori dai bordi */
+    background: linear-gradient(90deg, #1e90ff, #4a90e2); /* Gradiente Blu */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.custom-button:focus {
+    outline: none;
+}
+
+.custom-button::before {
+    content: '';
+    position: absolute;
+    width: 150px; /* Dimensione dello spotlight */
+    height: 150px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 80%);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(calc(var(--mouse-x, 50%) - 50%), calc(var(--mouse-y, 50%) - 50%));
+    opacity: 0;
+    transition: opacity 0.2s, transform 0.1s;
+}
+
+.custom-button:hover::before {
+    opacity: 1;
+}
+
+/*Stile per i testi*/
+.text-navTitle{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.text-sub {
+    font-size: 24px;
+    color: rgb(110, 110, 115);
+}
+
+.text-title {
+    font-size: 48px;
+}
+
+.text-smal {
+    font-size: 18px;
+}
+
+.text-normal{
+    font-size: 20px;
+}
+
+.text-justify {
+    text-align: right; /* Allinea il testo ai margini */
+}
+
+/*Stile per gli sfondi*/
+.gradient-bg{
+    background: linear-gradient( to bottom, rgb(245, 245, 247), rgb(235, 235, 240));
+}
+
+/*Stile per le card*/
+.clickable-div{
+    text-decoration: none;
+    color: inherit;
+}
+.doc-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.doc-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.doc-icon {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: rgb(37, 99, 235);
+}
+
+.doc-icon-bg{
+    background-color: rgba(37, 99, 235, 0.1);
+}
+
+.doc-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.doc-arrow {
+    color: #6c757d;
+    font-size: 1.2rem;
+}
+
+.doc-bg{
+    background-color: rgb(245, 245, 247) !important;
+}
+
+/*Stile per link*/
+.link{
+    text-decoration: none;
+    color: inherit;
+}
