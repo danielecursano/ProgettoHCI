@@ -4,3 +4,5 @@
 
 * [Link al prototipo su FIGMA](https://www.figma.com/design/xuV2CfPPOqdLUPNvqlsDgp/SportPal---The-Power-of-the-N?node-id=0-1&node-type=canvas&t=SlvmDqYeEbEliHOv-0)
 * [Deploy del SitoWeb](https://danielecursano.github.io/ProgettoHCI/)
+
+* [Valutazione euristica di gruppo](./C5/ValutazioneEuristicaGruppo.pdf)
