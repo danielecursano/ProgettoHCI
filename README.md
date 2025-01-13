@@ -6,3 +6,17 @@
 * [Deploy del SitoWeb](https://danielecursano.github.io/ProgettoHCI/)
 
 * [Valutazione euristica di gruppo](./C5/ValutazioneEuristicaGruppo.pdf)
+
+
+
+## Guida all'utilizzo del prototipo per i 3 task
+- Consigli automatici
+    - Vengono mostrati dei luoghi consigliati in un pop-up (nel prototipo succede ogni 10 secondi)
+-  Ricerca giocatori
+    - Entra nella sezione Comunità
+    - Decidi se partecipare a una partita oppure crea la tua ricerca giocatori
+- Ricerca dei luoghi
+    - Vai nella sezione Luoghi
+    - Cerca sulla mappa il logo dello sport che preferisci
+    - Puoi anche usare i filtri in modo da trovare un luogo per praticare uno sport specifico
+ 
